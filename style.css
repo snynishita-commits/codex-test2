@@ -50,6 +50,34 @@ h1 {
   color: #4b5563;
 }
 
+.practice-list {
+  margin: 0 auto 32px;
+  padding: 24px;
+  max-width: 480px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  text-align: left;
+}
+
+.practice-list h2 {
+  margin: 0 0 14px;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.practice-list ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.practice-list li {
+  margin: 8px 0;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
 .button {
   display: inline-block;
   padding: 14px 24px;
@@ -73,5 +101,9 @@ h1 {
 
   .description {
     font-size: 16px;
+  }
+
+  .practice-list {
+    padding: 20px;
   }
 }
